@@ -1,0 +1,11 @@
+.map-container {
+  text-align: center;
+}
+
+.time-details {
+  text-align: center;
+}
+.chart-div{
+  position: fixed;
+   padding-top: 20px;
+}

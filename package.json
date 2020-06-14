@@ -1,0 +1,38 @@
+{
+  "name": "timezone-map",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "d3": "^5.16.0",
+    "d3-color": "^1.4.1",
+    "d3-pie": "^1.1.0",
+    "d3-scale": "^3.2.1",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-scripts": "2.1.8",
+    "react-simple-maps": "^0.12.1",
+    "save": "^2.4.0",
+    "spacetime": "^5.4.0"
+  },
+  "homepage": ".",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
